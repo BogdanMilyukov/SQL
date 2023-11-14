@@ -1,0 +1,11 @@
+create table alanikola (
+id integer primary key,
+name text not null,
+patronymic text not null
+);
+
+insert into alanikola values (1, 'Bogdan', 'Yurevich');
+insert into alanikola values (2, 'Ayaulym', 'Kairatovna');
+
+select * from alanikola where name = 'Bogdan';
+select * from alanikola where name = 'Ayaulym';
